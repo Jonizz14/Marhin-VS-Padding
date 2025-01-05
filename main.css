@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3e706a;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header h1 {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #3c2b28;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .big-box {
+    background-color: black; 
+    border: 5px solid red; 
+    padding: 20px; 
+    width: 45%;
+    margin: 20px auto; 
+  }
+
+  .content {
+    background-color: #05f8d8; 
+    padding: 20px; 
+    color: black;
+    margin-bottom: 20px; 
+  }
+
+  .content:last-child {
+    margin-bottom: 0; 
+  }
+
+  .content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
